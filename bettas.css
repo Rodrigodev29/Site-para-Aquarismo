@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding: 0 2%;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgb(245, 245, 245);
+}
+
+
+header {
+    padding: 60px 0;
+    height: 100px;
+    border-radius: 10px;
+    margin: 2px; 
+    position: sticky;
+}
+
+.logo {
+    width: 50%;
+    position: absolute;
+    top: 5px;
+    left: 1.5cm;
+    
+}
+
+.menu {
+    width: 70%;
+    text-align: right;
+    position: absolute; top: 40%; left: 90%;
+}
+
+.menu a {
+    color: rgb(233, 230, 230);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    background-color: rgb(156, 4, 4);
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.cpbettas {
+    height: 110px;
+}
+
+section.sobre {
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras {
+    position: absolute;
+    bottom: -200px;
+    right: -500px;
+    width: 950px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: rgb(10, 10, 82);
+}
+.social {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+    margin: 10px;
+}
+
+.social img {
+    display: block;
+    width: 45px;
+    margin: 10px 0;
+}
+
+.texto-sobre {
+    margin-top: 30px;
+    position: absolute;
+    left: 2px;
+}
+
+.texto-sobre h1 {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 82);  
+    box-shadow: 5px 5px 5px rgb(49, 49, 63); 
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 82);
+    box-shadow: 5px 5px 5px rgb(49, 49, 63);
+}
+
+.texto-sobre p:hover {
+    margin: 20px 0;
+    color: rgb(10, 10, 82);
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(49, 49, 63);
+    cursor:pointer;
+
+}
+
+.texto-sobre button {
+    border: 0;
+    background-color:rgb(10, 10, 82);
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+
+} 
